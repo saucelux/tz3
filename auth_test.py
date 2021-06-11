@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 import pytest
-def inc(x):
-    return x + 1
-
+import sys
+def inc():
+    subprocess.Popen([sys.executable, dev.py]
+    return sys.stdin.read()
+                     
 def test_answer():
-    assert inc(3) == 4
+    assert inc() == "Hello world from dev"
