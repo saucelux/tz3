@@ -1,2 +1,2 @@
 #!/usr/bin/env python
-print("Hello world from dev")
+sys.stdout.write("Hello world from dev")
